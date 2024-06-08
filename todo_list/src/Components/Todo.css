@@ -54,12 +54,15 @@ li{
 }
 #complete{
     color: green;
+    cursor: pointer;
 }
 #edit{
     color: #007bff;
+    cursor: pointer;
 }
 #delete{
     color: red;
+    cursor: pointer;
 }
 #list-item{
     text-decoration: line-through;
@@ -69,3 +72,13 @@ li{
     color: red;
     text-align: center;
 }
+body{
+    background-color: #007bff;
+    background: linear-gradient(to right, #395058, #2e2c33);
+}
+.swal2-confirm {
+    min-width: 150px;
+  }
+  .swal2-cancel {
+    min-width: 150px;
+  }
